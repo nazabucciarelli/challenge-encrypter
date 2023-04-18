@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+:root{
+
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo{
+    padding: 20px;
+}
+
+main{
+    height: 100vh;
+    display: inline-block;
+    width: 75%;
+}
+
+#textarea-block textarea{
+    border: none;
+    background-color: #E5E5E5;
+    font-size: 32px;
+    color: #0A3871;
+    height: 400px;
+}
+
+#textarea-block  textarea::placeholder{
+    color: #0A3871;
+
+}
+
+#textarea-block textarea:focus{
+    outline: none;
+}
+
+#textarea-block{
+    margin-left: 50px;
+    display: block;
+    text-align: center;
+}
+
+.buttons-container{
+    text-align: center;
+}
+
+.buttons-container button{
+    padding: 15px 80px 15px 80px;
+    margin:10px;
+    border-radius: 10px;
+    border: none;
+}  
+
+.buttons-container button:hover{
+   cursor: pointer;
+}  
+
+#button-desencrypt{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+#button-encrypt{
+    background-color: #0A3871;
+    color: white;
+}
+
+.warning p{
+    display: inline-block;
+    padding: 3px;
+    height: 0px;
+
+}
+
+.warning{
+    color: #495057;
+    font-size: 15px;
+    width: 85%;
+}
+
+aside{
+    background-color: #FFFFFF;
+    width: 20%;
+    float: right;    
+    height: 90vh;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+aside img {
+    width: 100%;
+}
+
+aside p{
+    font-weight: 300;
+    font-size: 14px;
+}
+aside h3{
+    font-weight: 500;
+}
+
+#result{
+    height: 100%; 
+    width: 100%;   
+}
+
+#container-result-text{
+    height: 80%;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+#result-text{
+    font-size: 24px;
+    height: auto;
+    color: #495057;
+}
+
+#container-button-copy{
+    height: 10%;
+}
+
+#button-copy{
+    padding: 15px 80px 15px 80px;
+    margin:10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+#button-copy:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
