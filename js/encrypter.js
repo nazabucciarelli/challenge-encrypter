@@ -11,19 +11,19 @@ function encrypt(){
     let encryptedText = "";
     for(let i = 0; i < text.length;i++){
         if(text[i] == 'a') {
-            encryptedText = encryptedText.concat("a","ai");
+            encryptedText = encryptedText.concat("ai");
         }
         else if(text[i] == 'e'){
-            encryptedText = encryptedText.concat("e","enter");
+            encryptedText = encryptedText.concat("enter");
         }
         else if(text[i] == 'i'){
-            encryptedText =  encryptedText.concat("i","imes");
+            encryptedText =  encryptedText.concat("imes");
         }
         else if(text[i] == 'o'){
-            encryptedText = encryptedText.concat("o","ober");
+            encryptedText = encryptedText.concat("ober");
         }
         else if(text[i] == 'u'){
-            encryptedText = encryptedText.concat("u","ufat");
+            encryptedText = encryptedText.concat("ufat");
         } else{
             encryptedText = encryptedText.concat(text[i]);
         }

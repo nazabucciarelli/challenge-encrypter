@@ -40,20 +40,27 @@ main{
     margin-left: 50px;
     display: block;
     text-align: center;
+    height: 60%;
 }
 
 .buttons-container{
     text-align: center;
+    
 }
 
-.buttons-container button{
+
+.buttons{
+    display: inline-block;
+}
+
+.buttons button{
     padding: 15px 80px 15px 80px;
     margin:10px;
     border-radius: 10px;
     border: none;
 }  
 
-.buttons-container button:hover{
+.buttons button:hover{
    cursor: pointer;
 }  
 
@@ -70,15 +77,14 @@ main{
 
 .warning p{
     display: inline-block;
-    padding: 3px;
     height: 0px;
-
+    
 }
 
 .warning{
     color: #495057;
     font-size: 15px;
-    width: 85%;
+    text-align: start;
 }
 
 aside{
@@ -122,10 +128,15 @@ aside h3{
     font-size: 24px;
     height: auto;
     color: #495057;
+    text-align: start;
 }
 
 #container-button-copy{
     height: 10%;
+}
+
+#madeby{
+    color: rgb(190, 190, 190);
 }
 
 #button-copy{
